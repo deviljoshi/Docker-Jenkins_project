@@ -7,8 +7,7 @@ spec:
   selector:
     matchLabels:
        env: production
-#    matchExpressions:
-#      - { key: env,  operator: In,  values: [ production ] }
+
   template:
     metadata:
      name: web-pod
