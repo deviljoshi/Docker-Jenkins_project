@@ -1,0 +1,4 @@
+#/bin/bash
+
+git push
+curl --user "admin:d" 192.168.99.100:8080/job/kubeJob/build?token=d 

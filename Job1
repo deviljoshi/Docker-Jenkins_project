@@ -1,0 +1,4 @@
+docker login  -u "devil1211" -p ""
+export DOCKER_API_VERSION=1.39
+
+docker push devil1211/httpd:v1 
